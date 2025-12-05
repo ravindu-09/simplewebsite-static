@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.navbar-brand img {
+    margin-right: 10px;
+}
+
+.navbar-nav .nav-link {
+    transition: 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: #ffcc00 ;
+    padding: 25px;
+}
+
+.error-title {
+    font-size: 2rem;
+    color: #ff4d4d;
+    margin-top: 100px;
+}
+
+.error-message {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.error-image {
+    width: 50%;
+    max-width: 500px;
+    margin-top: 20px;
+}
+
+.footer {
+    background: #222;
+    color: white;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}

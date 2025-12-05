@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding-top: 120px;
+}
+
+
+.navbar-brand img {
+    margin-right: 10px;
+}
+
+.navbar-nav .nav-link {
+    transition: 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: #ffcc00 ;
+    padding: 25px;
+}
+
+.card {
+    background: white;
+    border-radius: 12px;
+    padding: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+}
+
+.card-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text h2 {
+    font-size: 30px;
+    margin: 0;
+}
+
+.subtext {
+    font-size: 20px;
+    color: gray;
+    margin: 2px 0;
+}
+
+.price {
+    font-size: 25px;
+    font-weight: bold;
+    color: #1060a6;
+    margin-top: 2px;
+}
+
+.image img {
+    width: 150px;
+    height: 100px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-right: 5px;
+}
+
+.btn {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    object-fit: cover;
+
+}
+.btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.pagination {
+    text-align: center;
+    display: flex;
+    gap: 4px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.pagination a{
+    color: black;
+    background-color: antiquewhite;
+    text-decoration:none ;
+    display: inline-block;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+.pagination a.active{
+    background-color: rgb(63, 221, 52);
+    font-weight: bold;
+    border-radius: 5px;
+}
+.pagination a:hover:not(.active){
+    background-color: #717172;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.footer {
+    background: #343a40;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
